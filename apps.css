@@ -35,23 +35,23 @@ body {
     font-weight: bold;
 }
 #navLinks li i {
-    color:rgb(255, 255, 255);
+    color:white;
 }
 #navLinks li b {
-    
-    display: none;
+color: white;
+font-family: 'Source Code Pro', monospace;
 }
-#navLinks a:hover {
+/* #navLinks a:hover {
     transition: 0.5s;
-}
-#navLinks a:hover i {
+} */
+/* #navLinks a:hover i {
     
     display: none;
 
-}
-#navLinks a:hover b {
+} */
+/* #navLinks a:hover b {
     display: block;
-}
+} */
 
 
 
@@ -81,7 +81,6 @@ footer {
   }
 
   #home{
-    
     height: 80vh !important;
     background-size: cover;
   }
@@ -132,23 +131,27 @@ footer {
   background-size: contain;
   overflow-y: hidden;
   /* img size is 50x50 */
-  /* background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAABnSURBVHja7M5RDYAwDEXRDgmvEocnlrQS2SwUFST9uEfBGWs9c97nbGtDcquqiKhOImLs/UpuzVzWEi1atGjRokWLFi1atGjRokWLFi1atGjRokWLFi1af7Ukz8xWp8z8AAAA//8DAJ4LoEAAlL1nAAAAAElFTkSuQmCC") repeat; */
-
-}
-/* Animation Code 
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAABnSURBVHja7M5RDYAwDEXRDgmvEocnlrQS2SwUFST9uEfBGWs9c97nbGtDcquqiKhOImLs/UpuzVzWEi1atGjRokWLFi1atGjRokWLFi1atGjRokWLFi1af7Ukz8xWp8z8AAAA//8DAJ4LoEAAlL1nAAAAAElFTkSuQmCC") repeat;
+  /* Animation Code  */
   -webkit-animation: bg-scrolling-reverse 0.92s infinite;
-  Safari 4+ 
+  /* Safari 4+  */
   -moz-animation: bg-scrolling-reverse 0.92s infinite;
-  Fx 5+ 
+  /* Fx 5+  */
   -o-animation: bg-scrolling-reverse 0.92s infinite;
-   Opera 12+ 
+   /* Opera 12+  */
   animation: bg-scrolling-reverse 0.92s infinite;
-   IE 10+ 
+   /* IE 10+  */
   -webkit-animation-timing-function: linear;
   -moz-animation-timing-function: linear;
   -o-animation-timing-function: linear;
   animation-timing-function: linear;
-  */
+
+}
+
+ .content
+ {
+  background-color: white;
+ }
 
 
 
@@ -908,6 +911,7 @@ background-position: 0% 50%;
   margin-top: 25px;
   margin-bottom: 50px;
   color: rgb(0, 0, 0);
+  background-color: white;
 }
 .card
 {
@@ -936,3 +940,10 @@ background-position: 0% 50%;
 {
   margin-top: 5px;
 }
+
+#project-boxes
+{
+  display: flex;
+}
+#project-item
+{}
