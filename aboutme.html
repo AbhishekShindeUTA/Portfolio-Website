@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>More About Me</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="apps.css">
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/e826914afc.js" crossorigin="anonymous"></script>
+
+    <!-- AOS Animate -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    
+    <nav id="navigationBar" class="navbar navbar-expand-md navbar-dark  ">
+        <div id="mainContainer" class="container ">
+            <a data-aos="fade-right" data-aos-duration="2000" class="navbar-brand" href="index.html">Abhishek Shinde</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navLinks" aria-controls="navLinks" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <div class="collapse navbar-collapse" id="navLinks">
+                <ul class="navbar-nav ml-auto">
+                    <li data-aos="fade-left" data-aos-duration="2000" class="nav-item ">
+                        <a class="nav-link" href="index.html"><i class="icon fa fa-home fa-2x"></i><b>Home</b> </a>
+                    </li>
+                    <li data-aos="fade-left" data-aos-duration="2000" class="nav-item">
+                        <a class="nav-link" href="aboutme.html"><i class="icon fa fa-coffee fa-2x"></i><b>About Me</b></a>
+                    </li>
+                    <li data-aos="fade-left" data-aos-duration="2000" class="nav-item">
+                        <a class="nav-link" href="projects.html"><i class="icon fa fa-code fa-2x"></i><b>Projects</b></a>
+                    </li>
+                    <!-- <li data-aos="fade-left" data-aos-duration="2000" class="nav-item">
+                        <a class="nav-link" href="skills.html"><i class="fas fa-award fa-2x"></i><b>Skills</b></a>
+                    </li> -->
+                    <li data-aos="fade-left" data-aos-duration="2000" class="nav-item">
+                        <a class="nav-link" href="work.html"><i class="fas fa-briefcase fa-2x"></i><b>Work</b></a>
+                    </li>
+                    <li data-aos="fade-left" data-aos-duration="2000" class="nav-item">
+                        <a class="nav-link" href="contactme.html"><i class="icon fa fa-comment fa-2x"></i><b>Contact Me</b></a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+</head>
+
+<body id="aboutme">
+
+    <div class="container">
+
+        <div class="row" id="aboutmetitle" >
+            <h2 class="display-4" data-aos="fade-right" data-aos-duration="2000">About Me<span style="color: black;">.</span></h2>
+        </div>
+        <div class="row">
+
+            <div data-aos="fade-up-right" data-aos-duration="2000" id="aboutmepic" class="col-md-4">
+                <img src="mypic.jpeg" alt=""id="aboutpic">
+            </div>
+
+            <div data-aos="fade-up-left" data-aos-duration="2000" id="aboutcontent" class="col-md-8">
+                <h2 id="myname">Hey! <br/><span >I'm Abhishek Shinde.</span></h2>
+                <h4>
+                    <p id="jobtitle" >Web Developer</p>
+                </h4>
+                <p>
+                    I am a Computer Science Engineer and I enjoy developing user-friendly web solutions to our daily challenges.
+                    <br/>
+                    I currently work as a web developer at the VPSA department at University of Texas at arlington. I have also worked on multiple projects : designed a classifier to predict the numerical rating of a textual review for a game, implemented synchronous and asynchronous RPC using TCP and UDP protocols and worked on a team to create an Android application which was coded using Java 8.  
+                    <br/>
+                    I am currently working on improving my web technology repertoire by learning ReactJS and WebGL while continuing to perfect my skillset. 
+                  </p>
+            </div>
+
+
+
+        </div>
+
+        <div class="row">
+            <div id="skillbox" class="col-12 ">
+                <h2 data-aos="fade-right" data-aos-duration="2000" style="color: black;"><span><i class="fas fa-cogs">&nbsp;</i></span>What Skills I Have</h2>   
+            </div>
+            <br/><br/>
+            <div data-aos="fade-right" data-aos-duration="3000" class="col-12 col-md-4">
+                <button  id="skilltag" ><i class="fab fa-html5">&nbsp;</i>HTML5</button>               
+                <button  id="skilltag" ><i class="fab fa-css3-alt ">&nbsp;</i>CSS3</button>               
+                <button  id="skilltag" ><i class="fab fa-js ">&nbsp;</i>JavaScript(ES6+)</button>               
+                <button  id="skilltag" ><i class="fab fa-php ">&nbsp;</i>Php</button> 
+            </div>
+            <div data-aos="fade-right" data-aos-duration="3000" class="col-12 col-md-4">                             
+                <button  id="skilltag" ><i class="fab fa-github">&nbsp;</i>Git</button>    
+                <button  id="skilltag" ><i class="fas fa-database">&nbsp;</i>MySQL</button>               
+                <button   id="skilltag" ><i class="fab fa-laravel">&nbsp;</i>Laravel</button>     
+                <button  id="skilltag" ><i class="fas fa-flask">&nbsp;</i>Flask</button>      
+            </div>
+            <div data-aos="fade-right" data-aos-duration="3000" class="col-12 col-md-4">
+                <button  id="skilltag" ><i class="fab fa-java ">&nbsp;</i>Java 8</button>                
+                <button  id="skilltag" ><i class="fab fa-python ">&nbsp;</i>Python</button>                
+                <button  id="skilltag" ><i class="fab fa-node-js">&nbsp;</i>NodeJS</button>    
+                <button  id="skilltag" ><i class="fab fa-unity">&nbsp;</i>Unity 2D</button>             
+              
+            </div>
+            <div class=" col-md-2">
+                <p> &nbsp;</p>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <footer>
+        <p>
+            <a  id="socialitem" href="#" title="Facebook"  target="_blank">
+                <i class="fab fa-facebook-square"></i>
+            </a> 
+            <a id="socialitem" href="#" title="Instagram" target="_blank" >
+                <i class="fab fa-instagram"></i>
+            </a>
+        &nbsp;Abhishek Shinde ©&nbsp;
+            <a id="socialitem" href="#" title="LinkedIn"  target="_blank" >
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a  id="socialitem" href="#" title="Github"    target="_blank" >
+                <i class="fab fa-github"></i>
+            </a>
+        </p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+
+</html>

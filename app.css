@@ -1,0 +1,162 @@
+html {
+
+  overflow-x: hidden;
+}
+body {
+
+  overflow-x: hidden;
+
+}
+/* NavBar */
+.blast-root{
+    display: inline-block;
+}
+
+.container
+{
+    text-align: center;
+    margin: auto;
+}
+#navigationBar {
+    background-color: black;
+}
+
+#navLinks a:active {
+    font-weight: bold;
+}
+#navLinks li i {
+    color:rgb(255, 255, 255);
+}
+#navLinks li b {
+    
+    display: none;
+}
+#navLinks a:hover {
+    transition: 0.5s;
+    color: #6bf4a9;
+}
+#navLinks a:hover i {
+    
+    display: none;
+
+}
+#navLinks a:hover b {
+    display: block;
+}
+
+
+
+/* Footer */
+footer {
+    font-size: 1em;
+    text-align: center;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    height: 50px;
+    background-color:#070707;
+    position: sticky;
+    top: 100%;
+}
+
+/* HOMEPAGE */
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Ubuntu",sans-serif;
+  box-sizing: border-box;
+}
+
+.inner-width{
+  max-width: 1300px;
+  margin: auto;
+}
+
+#home{
+  min-height: 100vh;
+  height: 93vh !important;
+  background-size: cover;
+
+}
+
+#home .inner-width{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80%;
+  text-align: center;
+}
+
+#home .content{
+  width: 100%;
+  color: rgb(0, 0, 0);
+}
+
+#home .content h1{
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+#home .content h1::after{
+  content: "Abhishek Shinde.";
+  animation: textanim 10s linear infinite;
+}
+
+@keyframes textanim{
+  33%{
+    content: "A Front-End Developer.";
+  }
+  66%{
+    content: "A Web Designer.";
+  }
+
+}  
+
+#home .content p{
+  /* margin: auto; */
+  /* width: 800px; */
+  text-align: center;
+}
+.buttons{
+  margin-top: 25px;
+}
+
+#homebody
+{
+  overflow-y: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Cool infinite background scrolling animation.
+ * Twitter: @kootoopas
+ */
+/* Background data (Original source: https://subtlepatterns.com/grid-me/) */
+

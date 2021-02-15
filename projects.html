@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My Projects</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="apps.css">
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/e826914afc.js" crossorigin="anonymous"></script>
+
+    <!-- AOS Animate -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <nav id="navigationBar" class="navbar navbar-expand-md navbar-dark  ">
+        <div id="mainContainer" class="container ">
+            <a data-aos="fade-right" data-aos-duration="2000" class="navbar-brand" href="index.html">Abhishek Shinde</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navLinks" aria-controls="navLinks" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <div class="collapse navbar-collapse" id="navLinks">
+                <ul class="navbar-nav ml-auto">
+                    <li data-aos="fade-left" data-aos-duration="2000" class="nav-item ">
+                        <a class="nav-link" href="index.html"><i class="icon fa fa-home fa-2x"></i><b>Home</b> </a>
+                    </li>
+                    <li data-aos="fade-left" data-aos-duration="2000" class="nav-item">
+                        <a class="nav-link" href="aboutme.html"><i class="icon fa fa-coffee fa-2x"></i><b>About Me</b></a>
+                    </li>
+                    <li data-aos="fade-left" data-aos-duration="2000" class="nav-item">
+                        <a class="nav-link" href="projects.html"><i class="icon fa fa-code fa-2x"></i><b>Projects</b></a>
+                    </li>
+                    <!-- <li data-aos="fade-left" data-aos-duration="2000" class="nav-item">
+                        <a class="nav-link" href="skills.html"><i class="fas fa-award fa-2x"></i><b>Skills</b></a>
+                    </li> -->
+                    <li data-aos="fade-left" data-aos-duration="2000" class="nav-item">
+                        <a class="nav-link" href="work.html"><i class="fas fa-briefcase fa-2x"></i><b>Work</b></a>
+                    </li>
+                    <li data-aos="fade-left" data-aos-duration="2000" class="nav-item">
+                        <a class="nav-link" href="contactme.html"><i class="icon fa fa-comment fa-2x"></i><b>Contact Me</b></a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+</head>
+<body id="projectbody">
+    
+    <div class="container ">
+        <h1 class="display-4" id="projectpagetitle" data-aos="fade-down" data-aos-duration="2000">My Projects.</h1>
+        
+        <div class="row">
+
+            <div data-aos="fade-up-right" data-aos-duration="2000" id="project-item" class="col-lg-6 col-md-6 mt-3">
+                <div class="card mx-auto" >
+                    <img  class="card-img-top" src="dac-project.jpg" alt="Card image cap">
+                    <div  class="card-body">
+                      <h5  class="card-title">Discretionary Access Control System</h5>
+                      <h6  id="jobsub">Using Web Based Front-End and MySQL</h6>
+                      <p   class="card-text">Implemented a DAC subsystem allowing for admin to assign and revoke specific privileges from a user over specific relations in a database. The Admin can select which permissions to be given to which user over which database relation. Admin can also update existing privileges. A user which creates a relation is the sole owner of that relation, unless they decide to give permissions over their relation to another user.</p>
+                      <p><strong>Technologies used:</strong></p>
+                        <span  class="badge badge-pill badge-light">HTML5</span>
+                        <span  class="badge badge-pill badge-light">CSS3</span>
+                        <span  class="badge badge-pill badge-light">Bootstrap 4</span>
+                        <span  class="badge badge-pill badge-light">PHP</span>
+                        <span  class="badge badge-pill badge-light">MySQL</span>
+                        <br/>
+                        <br/>
+                      <a id="projectbuttons"  href="#" class="btn btn-dark">Github</a>
+                      
+                    </div>
+                </div>
+            </div>
+            
+            <div data-aos="fade-up-left" data-aos-duration="2000" id="project-item" class="col-lg-6 col-md-6 mt-3">
+                <div class="card mx-auto" >
+                    <img   class="card-img-top" style="height: 17rem;" src="bgg-project.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5  class="card-title">Board Game Geek Review Classification</h5>
+                      <h6  id="jobsub">With Ridge Classifier and Flask Deployment</h6>
+                      <p   class="card-text">Using the BoardGameGekk reviews dataset, implemented a predictor to study and understand the behavior of data and to accurately predict a numerical rating value for a textual review for any game. The 13 million records dataset was cleaned, normalized and used to train the model to predict the rating. Smoothing techniques and probability calculations were used to generate a good accuracy. The project is deployed on a Live Server using Flask. </p>
+                      <p><strong>Technologies used:</strong></p>
+                        <span  class="badge badge-pill badge-light">Flask</span>
+                        <span  class="badge badge-pill badge-light">Python</span>
+                        <span  class="badge badge-pill badge-light">Sklearn</span>
+                        <span  class="badge badge-pill badge-light">Numpy</span>
+                        <span  class="badge badge-pill badge-light">Pandas</span>
+                        <br/>
+                        <br/>
+                      <a id="projectbuttons" href="https://github.com/AbhishekShindeUTA/My-Ridge-Classifier" class="btn btn-dark">Github</a>
+                      <a id="projectbuttons" href="https://www.kaggle.com/abhishekmshinde3097/datamining-termproject" class="btn btn-dark">Kaggle</a>
+                      <a id="projectbuttons" href="https://myridgeclassifierlive.herokuapp.coma/" class="btn btn-dark">Demo</a>
+                    </div>
+                </div>
+            </div>
+            <div data-aos="fade-up-right" data-aos-duration="2000" id="project-item" class="col-lg-6 col-md-6 mt-3">
+                <div class="card mx-auto" >
+                    <img class="card-img-top" style="height: 17rem;" src="nbc-project.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Sentiment Analysis with Naive-Bayes Classifier</h5>
+                      <h6 id="jobsub">Using a Large Movie Reviews Dataset</h6>
+                      <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                      <p><strong>Technologies used:</strong></p>
+                      <span class="badge badge-pill badge-light">Python</span>
+                      <span class="badge badge-pill badge-light">Sklearn</span>
+                      <span class="badge badge-pill badge-light">Numpy</span>
+                      <span class="badge badge-pill badge-light">Pandas</span>
+                      <br/>
+                      <br/>
+                      <a id="projectbuttons" href="https://github.com/AbhishekShindeUTA/Sentiment-Analysis-using-Naive-Bayes" class="btn btn-dark" >Github</a>
+                    </div>
+                </div>
+            </div>
+            <div data-aos="fade-up-left" data-aos-duration="2000" id="project-item" class="col-lg-6 col-md-6 mt-3">
+                <div class="card mx-auto" >
+                    <img class="card-img-top" style="height: 17rem;" src="UT-Arlington.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Websites Built as A Web Developer</h5>
+                      <h6 id="jobsub">University of Texas at Arlington</h6>
+                      <p class="card-text">Redesigned and deployed the below mentioned websites for the VPSA Department at University of Texas at Arlington. Designed custom components for multiple time uses, interacted with clients, worked in a team environment and delivered the deployed website on time. </p>
+                      <p><strong>Technologies used:</strong></p>
+                      <span class="badge badge-pill badge-light">HTML5</span>
+                      <span class="badge badge-pill badge-light">CSS3</span>
+                      <span class="badge badge-pill badge-light">Bootstrap 4</span>
+                      <span class="badge badge-pill badge-light">JavaScript</span>
+                      <span class="badge badge-pill badge-light">Sitecore</span>
+                      <br/><br/>
+                      <a id="projectbuttons" href="https://www.uta.edu/student-affairs/veterans" class="btn btn-dark">UTA Veterans</a>
+                      <a id="projectbuttons" href="https://www.uta.edu/student-affairs/careers" class="btn btn-dark">UTA Careers</a>
+                      <a id="projectbuttons" href="https://www.uta.edu/student-affairs/community-standards" class="btn btn-dark">UTA Community Standards</a>
+                      
+                      </div>
+                </div>
+            </div>
+            <div data-aos="fade-up-right" data-aos-duration="2000" id="project-item" class="col-lg-6 col-md-6 mt-3">
+                <div class="card mx-auto" >
+                    <img class="card-img-top" style="height: 17rem;" src="mavs-skills-project.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Maverick And Skills</h5>
+                      <h6 id="jobsub">An Android Application</h6>
+                      <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                      <p><strong>Technologies used:</strong></p>
+                      <span class="badge badge-pill badge-light">Java 8</span>
+                      <span class="badge badge-pill badge-light">Android Studio</span>
+                      <br/>
+                      <br/>
+                      <a href="#" class="btn btn-dark" >Github</a>
+                    </div>
+                </div>
+            </div>
+            <div data-aos="fade-up-left" data-aos-duration="2000" id="project-item" class="col-lg-6 col-md-6 mt-3">
+                <div class="card mx-auto" >
+                    <img class="card-img-top" style="height: 17rem;" src="malware-project.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Feasibility of Malware Packer Detection </h5>
+                      <h6 id="jobsub">Using Hardware Performance Counters</h6>
+                      <p class="card-text">Research Objective was to analyze the Hardware Performance Counters of popular packing
+                        algorithms in order to classify families of packed algorithms in obfuscated malware programs. Goal was to accurately classify the packed algorithm using the HPC values to create a software signature. Model was designed using Naive-Bayes classifier to identify 3 results : LZMA Algorithm, UPX Algorithm, If the malware is packed with neither of the two algorithms.</p>
+                        <p><strong>Technologies used:</strong></p>
+                      <span class="badge badge-pill badge-light">Python</span>
+                      <span class="badge badge-pill badge-light">Sklearn</span>
+                      <span class="badge badge-pill badge-light">Numpy</span>
+                      <span class="badge badge-pill badge-light">Tkinter</span>
+                      <br/>
+                      <br/>
+                      <a id="projectbuttons" href="https://github.com/AbhishekShindeUTA/CSE-6324--Malware-Packer-Detection-using-Hardware-Performance-Counters" class="btn btn-dark">Github</a>
+                      <a  href="HPC Final Report.pdf" download>
+                        <button id="projectbuttons"  class="btn btn-dark">Final Report</button>
+                      </a>
+                    </div>
+                </div>
+            </div>
+
+            
+
+        </div>
+        <br/>
+            <br/>
+            <br/>
+        <div class="row justify-content-center">
+            
+            <div class="col-12" style="color: rgb(0, 0, 0);">
+                <h1 data-aos="fade-down" data-aos-duration="2000">More Projects Are On Their Way!</h1>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+            </div>
+        </div>
+ 
+    </div>
+
+
+
+
+
+    <footer >
+    <p>
+        <a  id="socialitem" href="#" title="Facebook"  target="_blank">
+            <i class="fab fa-facebook-square"></i>
+        </a> 
+        <a id="socialitem" href="#" title="Instagram" target="_blank" >
+            <i class="fab fa-instagram"></i>
+        </a>
+    &nbsp;Abhishek Shinde ©&nbsp;
+        <a id="socialitem" href="#" title="LinkedIn"  target="_blank" >
+            <i class="fab fa-linkedin"></i>
+        </a>
+        <a  id="socialitem" href="#" title="Github"    target="_blank" >
+            <i class="fab fa-github"></i>
+        </a>
+    </p>
+</footer>
+
+    
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+
+</html>
