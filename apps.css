@@ -8,6 +8,13 @@ body {
 
 }
 /* NavBar */
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: rgb(255, 255, 255);
+} 
 .blast-root{
     display: inline-block;
 }
@@ -122,21 +129,23 @@ footer {
   background-size: contain;
   overflow-y: hidden;
   /* img size is 50x50 */
-  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAABnSURBVHja7M5RDYAwDEXRDgmvEocnlrQS2SwUFST9uEfBGWs9c97nbGtDcquqiKhOImLs/UpuzVzWEi1atGjRokWLFi1atGjRokWLFi1atGjRokWLFi1af7Ukz8xWp8z8AAAA//8DAJ4LoEAAlL1nAAAAAElFTkSuQmCC") repeat;
+  /* background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAABnSURBVHja7M5RDYAwDEXRDgmvEocnlrQS2SwUFST9uEfBGWs9c97nbGtDcquqiKhOImLs/UpuzVzWEi1atGjRokWLFi1atGjRokWLFi1atGjRokWLFi1af7Ukz8xWp8z8AAAA//8DAJ4LoEAAlL1nAAAAAElFTkSuQmCC") repeat; */
+
+}
+/* Animation Code 
   -webkit-animation: bg-scrolling-reverse 0.92s infinite;
-  /* Safari 4+ */
+  Safari 4+ 
   -moz-animation: bg-scrolling-reverse 0.92s infinite;
-  /* Fx 5+ */
+  Fx 5+ 
   -o-animation: bg-scrolling-reverse 0.92s infinite;
-  /* Opera 12+ */
+   Opera 12+ 
   animation: bg-scrolling-reverse 0.92s infinite;
-  /* IE 10+ */
+   IE 10+ 
   -webkit-animation-timing-function: linear;
   -moz-animation-timing-function: linear;
   -o-animation-timing-function: linear;
   animation-timing-function: linear;
-}
-
+  */
 
 
 
@@ -164,6 +173,7 @@ footer {
   }
   
   @keyframes textanim{
+    
     33%{
       content: "A Front-End Developer.";
     }
@@ -186,12 +196,16 @@ footer {
 /* About Me Page */
 #aboutme{
     height: auto ;
-    background-size: cover;
+    /* background-size: cover;
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
+    animation: gradient 15s ease infinite; */
+    background-size: contain;
+    overflow-y: hidden;
+    /* img size is 50x50 */
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAABnSURBVHja7M5RDYAwDEXRDgmvEocnlrQS2SwUFST9uEfBGWs9c97nbGtDcquqiKhOImLs/UpuzVzWEi1atGjRokWLFi1atGjRokWLFi1atGjRokWLFi1af7Ukz8xWp8z8AAAA//8DAJ4LoEAAlL1nAAAAAElFTkSuQmCC") repeat;
   }
-  @keyframes gradient {
+  /* @keyframes gradient {
 	0% {
 		background-position: 0% 50%;
 	}
@@ -201,7 +215,7 @@ footer {
 	100% {
 		background-position: 0% 50%;
 	}
-}
+} */
 
 #aboutmetitle
 {
@@ -313,19 +327,19 @@ footer {
   background-size: cover;
   overflow-y: hidden;
   /* img size is 50x50 */
-  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAABnSURBVHja7M5RDYAwDEXRDgmvEocnlrQS2SwUFST9uEfBGWs9c97nbGtDcquqiKhOImLs/UpuzVzWEi1atGjRokWLFi1atGjRokWLFi1atGjRokWLFi1af7Ukz8xWp8z8AAAA//8DAJ4LoEAAlL1nAAAAAElFTkSuQmCC") repeat;
+  /* background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAABnSURBVHja7M5RDYAwDEXRDgmvEocnlrQS2SwUFST9uEfBGWs9c97nbGtDcquqiKhOImLs/UpuzVzWEi1atGjRokWLFi1atGjRokWLFi1atGjRokWLFi1af7Ukz8xWp8z8AAAA//8DAJ4LoEAAlL1nAAAAAElFTkSuQmCC") repeat;
   -webkit-animation: bg-scrolling-reverse 0.92s infinite;
-  /* Safari 4+ */
+  Safari 4+
   -moz-animation: bg-scrolling-reverse 0.92s infinite;
-  /* Fx 5+ */
+   Fx 5+ 
   -o-animation: bg-scrolling-reverse 0.92s infinite;
-  /* Opera 12+ */
+  Opera 12+ 
   animation: bg-scrolling-reverse 0.92s infinite;
-  /* IE 10+ */
+   IE 10+ 
   -webkit-animation-timing-function: linear;
   -moz-animation-timing-function: linear;
   -o-animation-timing-function: linear;
-  animation-timing-function: linear;
+  animation-timing-function: linear; */
 }
 #contactmebody{
     /* background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("contact_img_1.jpeg") no-repeat center fixed; */
@@ -565,11 +579,15 @@ p {
 }
 
 .t-block-teal {
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: contain;
+  overflow-y: hidden;
+  /* img size is 50x50 */
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAABnSURBVHja7M5RDYAwDEXRDgmvEocnlrQS2SwUFST9uEfBGWs9c97nbGtDcquqiKhOImLs/UpuzVzWEi1atGjRokWLFi1atGjRokWLFi1atGjRokWLFi1af7Ukz8xWp8z8AAAA//8DAJ4LoEAAlL1nAAAAAElFTkSuQmCC") repeat;
+  /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 background-size: 400% 400%;
-animation: gradient 15s ease infinite;
+animation: gradient 15s ease infinite; */
 }
-@keyframes gradient {
+/* @keyframes gradient {
 0% {
 background-position: 0% 50%;
 }
@@ -579,10 +597,10 @@ background-position: 100% 50%;
 100% {
 background-position: 0% 50%;
 }
-}
+} */
 
 .t-block-teal h2 {
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 
 .t-block-teal h3 {
@@ -590,7 +608,7 @@ background-position: 0% 50%;
 }
 
 .t-block-teal p {
-  color: #ffffff;
+  color: #000000;
 }
 
 .timeline-list li {
